@@ -1,0 +1,67 @@
+# Build directories
+build/
+out/
+.vs/
+.vscode/
+
+# Compiled files
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.so
+*.pdb
+*.ilk
+*.exp
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.db
+*.opendb
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test outputs (keep test scripts, ignore outputs)
+*.mat
+*.bin
+*.jpg
+*.png
+*.pgm
+*.ppm
+*.txt
+!tests/*.txt
+!examples/*.txt
+
+# Documentation outputs
+*.docx
+*.pdf
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
