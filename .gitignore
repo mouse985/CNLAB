@@ -57,7 +57,11 @@ desktop.ini
 !tests/*.txt
 !examples/*.txt
 
-# Documentation outputs
+# Documentation
+docs/
+*.md
+!README.md
+!VS_CODE_SETUP.md
 *.docx
 *.pdf
 
@@ -65,3 +69,17 @@ desktop.ini
 *.tar.gz
 *.zip
 *.7z
+
+# Trae IDE files
+.trae/
+
+# Test outputs (keep test scripts, ignore outputs)
+*.mat
+*.bin
+*.jpg
+*.png
+*.pgm
+*.ppm
+*.txt
+!tests/*.txt
+!examples/*.txt
